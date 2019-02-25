@@ -1,7 +1,7 @@
-window.addEventListener("load", function () {
-  var contactLink = document.createElement("a");
-  var contactEl = document.createElement("p");
-  var contentEl = document.getElementById("content");
+function main () {
+  var contactLink = document.createElement('a');
+  var contactEl = document.createElement('p');
+  var contentEl = document.getElementById('content');
 
   // obfuscation function
   function shift (str, num) {
@@ -22,7 +22,15 @@ window.addEventListener("load", function () {
   contactLink.href = shift(mailString1, 1) + shift(mailString2, -2) + shift(mailString3, 3);
 
   contactEl.appendChild(contactLink);
-  contactEl.classList.add("contact");
+  contactEl.className = "contact";
 
   contentEl.appendChild(contactEl);
-});
+}
+
+if (window.addEventListener) {
+  window.addEventListener('load', main);
+} else if (window.attachEvent) {
+  window.attachEvent('onload', main);
+} else {
+  window.onload = main;
+}
