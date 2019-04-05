@@ -64,6 +64,58 @@ a img {
   height: 128px;
 }
 
-.contact {
-  font-size: 90%;
+#contact {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  padding: 0;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+#contact li {
+  margin: 0px 5px;
+}
+
+#contact a {
+  font-size: 32px;
+  text-decoration: none;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: 58px;
+  width: 58px;
+  height: 65px;
+}
+
+#contact a:before {
+  border-color: #eee;
+  display: block;
+  text-indent: 0;
+  top: 5px;
+  padding: 10px;
+  color: #eee;
+  border-radius: 29px;
+  border: 3px solid #eee;
+  transition: top 0.15s, border-color 0.15s, color 0.15s;
+  position: absolute;
+}
+
+#contact a.icon-twitter:hover:before {
+  top: 0px;
+  color: #1da1f2;
+  border-color: #1da1f2;
+}
+
+#contact a.icon-github:hover:before {
+  top: 0px;
+  color: #6e5494;
+  border-color: #6e5494;
+}
+
+#contact a.icon-envelop:hover:before {
+  top: 0px;
+  color: #fff597;
+  border-color: #fff597;
 }

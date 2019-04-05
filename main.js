@@ -1,7 +1,7 @@
 function main () {
+  var contactListEl = document.createElement('li');
   var contactLink = document.createElement('a');
-  var contactEl = document.createElement('p');
-  var contentEl = document.getElementById('content');
+  var contactEl = document.getElementById('contact');
 
   // obfuscation function
   function shift (str, num) {
@@ -16,15 +16,16 @@ function main () {
   var mailString2 = "vw|grqkvqB";
   var mailString3 = "dj^fi+`lj";
 
-  contactEl.innerText = "Contact: ";
+  // contactEl.innerText = "Contact: ";
 
-  contactLink.innerText = shift(mailString2, -2) + shift(mailString3, 3);
+  // contactLink.innerText = shift(mailString2, -2) + shift(mailString3, 3);
   contactLink.href = shift(mailString1, 1) + shift(mailString2, -2) + shift(mailString3, 3);
+  contactLink.className = "icon-envelop";
+  contactLink.title = "E-mail";
+  contactLink.innerText = "E-mail";
 
-  contactEl.appendChild(contactLink);
-  contactEl.className = "contact";
-
-  contentEl.appendChild(contactEl);
+  contactListEl.appendChild(contactLink);
+  contactEl.appendChild(contactListEl);
 }
 
 if (window.addEventListener) {
