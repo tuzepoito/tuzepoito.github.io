@@ -2,6 +2,7 @@
 layout: post
 title: "\"This GAN Page Does Not Exist\" Making-of - Introduction"
 date: 2019-05-30 15:52:00+0200
+comments: true
 tags: [machine-learning, gan, stylegan, neural-networks, this-gan-page-does-not-exist]
 ---
 I have recently made [This GAN Page Does Not Exist](https://this-gan-page-does-not-exist.herokuapp.com/), a joke-ish website about machine learning, made in reference to various ["This X Does Not Exist"](https://github.com/paubric/thisrepositorydoesnotexist) web pages that have been appearing recently, starting with [ThisPersonDoesNotExist.com](http://www.thispersondoesnotexist.com/).
