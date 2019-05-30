@@ -1,5 +1,4 @@
 function main () {
-  var contactListEl = document.createElement('li');
   var contactLink = document.createElement('a');
   var contactEl = document.getElementById('contact');
 
@@ -16,16 +15,13 @@ function main () {
   var mailString2 = "vw|grqkvqB";
   var mailString3 = "dj^fi+`lj";
 
-  // contactEl.innerText = "Contact: ";
+  var contactText = document.createTextNode("You may contact me at: ");
 
-  // contactLink.innerText = shift(mailString2, -2) + shift(mailString3, 3);
+  contactLink.innerText = shift(mailString2, -2) + shift(mailString3, 3);
   contactLink.href = shift(mailString1, 1) + shift(mailString2, -2) + shift(mailString3, 3);
-  contactLink.className = "icon-envelop";
-  contactLink.title = "E-mail";
-  contactLink.innerText = "E-mail";
 
-  contactListEl.appendChild(contactLink);
-  contactEl.appendChild(contactListEl);
+  contactEl.appendChild(contactText);
+  contactEl.appendChild(contactLink);
 }
 
 if (window.addEventListener) {
