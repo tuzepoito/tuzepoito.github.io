@@ -7,6 +7,15 @@ layout: default
 
 {{ content }}
 
+{% if page.tags %}
+<div class="post-tags">
+    Tags:
+    {% for tag in page.tags %}
+        {{ tag }}{% if forloop.last == false %}, {% endif %}
+    {% endfor %}
+</div>
+{% endif %}
+
 <div class="post-comments">
     {% if page.comments %}
         <div id="disqus_thread"></div>

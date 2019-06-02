@@ -2,6 +2,7 @@
 layout: post
 title:  "\"This GAN Page Does Not Exist\" Making-of - Part 1: The GAN That Never Was"
 date:   2019-06-02 14:20:33 +0200
+comments: true
 tags: [machine-learning, gan, stylegan, neural-networks, this-gan-page-does-not-exist, python]
 ---
 
