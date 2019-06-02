@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "\"This GAN Page Does Not Exist\" Making-of - Introduction"
-date: 2019-05-30 15:52:00+0200
+title:  "\"This GAN Page Does Not Exist\" Making-of - Introduction"
+date:   2019-05-30 15:52:00 +0200
 comments: true
 tags: [machine-learning, gan, stylegan, neural-networks, this-gan-page-does-not-exist]
 ---
