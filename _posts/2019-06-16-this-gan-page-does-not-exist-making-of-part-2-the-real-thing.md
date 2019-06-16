@@ -101,17 +101,17 @@ For instance, I chose to avoid categories that featured full-body instances of p
 
 
 <figure>
-    <img src="/assets/images/biggan-samples/pineapple.png" alt="BigGAN - Pineapple Samples" />
+    <img src="/assets/images/biggan-samples/pineapple.jpg" alt="BigGAN - Pineapple Samples" />
     <figcaption>Eight samples for the "pineapple" category. While the typical characteristics are definitely visible, most of the time it is not enough to produce a properly shaped fruit.</figcaption>
 </figure>
 
 <figure>
-    <img src="/assets/images/biggan-samples/cucumber.png" alt="BigGAN - Cucumber Samples" />
+    <img src="/assets/images/biggan-samples/cucumber.jpg" alt="BigGAN - Cucumber Samples" />
     <figcaption>Again, with the "cucumber" category.</figcaption>
 </figure>
 
 <figure>
-    <img src="/assets/images/biggan-samples/pizza-trunc-1-0.png" alt="BigGAN - Pizza Samples (truncation=1.0)" />
+    <img src="/assets/images/biggan-samples/pizza-trunc-1-0.jpg" alt="BigGAN - Pizza Samples (truncation=1.0)" />
     <figcaption>While the "pizza" category produces satisfying results, they do not offer much variety even with highest truncation value (=1.0). BigGAN seems pretty conservative about what makes a pizza (I see mozzarella, pepperoni and possibly spinach or capers)</figcaption>
 </figure>
 
